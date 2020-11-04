@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -28,13 +28,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/module_speedtest/E6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/module_cms/wp-content/themes/Kazan_MuseumTour" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\asc2020-to-ahmadirfanmaulana\module_cms\wp-content\themes\Kazan_MuseumTour" />
       <recent name="C:\xampp\htdocs\asc2020-to-ahmadirfanmaulana\module_speedtest\E6" />
       <recent name="C:\xampp\htdocs\asc2020-to-ahmadirfanmaulana\module_speedtest\E4" />
       <recent name="C:\xampp\htdocs\asc2020-to-ahmadirfanmaulana\module_speedtest\E1\wp-content\plugins\animated-social-button" />
@@ -49,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604451851366</updated>
-      <workItem from="1604451852477" duration="12458000" />
+      <workItem from="1604451852477" duration="16840000" />
     </task>
     <servers />
   </component>
@@ -61,17 +62,17 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="494" y="219" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1604457395693" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1604460195315">
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1604469185404">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1604460195315" />
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1604469185404" />
     <state x="604" y="340" key="NewPhpFileDialog" timestamp="1604462540396">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="604" y="340" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1604462540396" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1604462524310">
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1604469094457">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1604462524310" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1604469094457" />
   </component>
 </project>

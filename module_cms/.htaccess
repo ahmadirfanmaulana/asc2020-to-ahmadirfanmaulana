@@ -2,6 +2,7 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
+RewriteRule ^admin$ http://localhost/asc2020-to-ahmadirfanmaulana/module_cms/wp-login.php [L]
 RewriteBase /asc2020-to-ahmadirfanmaulana/module_cms/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
