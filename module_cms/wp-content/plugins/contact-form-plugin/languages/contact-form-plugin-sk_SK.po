@@ -1,0 +1,1400 @@
+#
+# Translators:
+# michalvittek <miso.par1c@gmail.com>, 2014
+# michalvittek <miso.par1c@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: Contact Form\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-25 16:27+0200\n"
+"PO-Revision-Date: 2019-02-25 16:27+0200\n"
+"Last-Translator: plugin@bestwebsoft.com <plugin@bestwebsoft.com>\n"
+"Language-Team: Michal Vittek, www.wp.sk <michal.vittek@wp.sk>\n"
+"Language: sk_SK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: contact_form.php:39 contact_form.php:47 contact_form.php:647
+#: includes/class-cntctfrm-settings.php:425
+msgid "Contact Form Settings"
+msgstr "Nastavenie kontaktného formulára"
+
+#: contact_form.php:48 contact_form.php:1619 contact_form.php:1633
+#: includes/class-cntctfrm-settings.php:27
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: contact_form.php:63 includes/class-cntctfrm-settings.php:483
+#: includes/class-cntctfrm-settings.php:817
+#: includes/class-cntctfrm-settings.php:998
+#: includes/class-cntctfrm-settings.php:1513
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: contact_form.php:350 contact_form.php:1410 contact_form.php:1456
+#: includes/class-cntctfrm-settings.php:574
+#: includes/class-cntctfrm-settings.php:664
+#: includes/class-cntctfrm-settings.php:1064
+#: includes/class-cntctfrm-settings.php:1103
+#: includes/class-cntctfrm-settings.php:1344
+msgid "Name"
+msgstr "Meno"
+
+#: contact_form.php:351 contact_form.php:1417 contact_form.php:1462
+#: includes/class-cntctfrm-settings.php:711
+#: includes/class-cntctfrm-settings.php:1065
+#: includes/class-cntctfrm-settings.php:1104
+#: includes/class-cntctfrm-settings.php:1349
+msgid "Address"
+msgstr "Adresa"
+
+#: contact_form.php:352 includes/class-cntctfrm-settings.php:727
+#: includes/class-cntctfrm-settings.php:1066
+#: includes/class-cntctfrm-settings.php:1105
+msgid "Email Address"
+msgstr "Emailová adresa"
+
+#: contact_form.php:353 includes/class-cntctfrm-settings.php:747
+#: includes/class-cntctfrm-settings.php:1067
+#: includes/class-cntctfrm-settings.php:1106
+msgid "Phone number"
+msgstr "Telefónne číslo"
+
+#: contact_form.php:354 contact_form.php:1428 contact_form.php:1471
+#: includes/class-cntctfrm-settings.php:763
+#: includes/class-cntctfrm-settings.php:1068
+#: includes/class-cntctfrm-settings.php:1107
+#: includes/class-cntctfrm-settings.php:1364
+msgid "Subject"
+msgstr "Predmet"
+
+#: contact_form.php:355 contact_form.php:1433 contact_form.php:1475
+#: includes/class-cntctfrm-settings.php:787
+#: includes/class-cntctfrm-settings.php:1069
+#: includes/class-cntctfrm-settings.php:1108
+#: includes/class-cntctfrm-settings.php:1368
+msgid "Message"
+msgstr "Správa"
+
+#: contact_form.php:356 includes/class-cntctfrm-settings.php:1070
+#: includes/class-cntctfrm-settings.php:1109
+#: includes/class-cntctfrm-settings.php:1373
+msgid "Attachment"
+msgstr "Príloha"
+
+#: contact_form.php:357
+msgid ""
+"Supported file types: HTML, TXT, CSS, GIF, PNG, JPEG, JPG, TIFF, BMP, AI, "
+"EPS, PS, CSV, RTF, PDF, DOC, DOCX, XLS, XLSX, ZIP, RAR, WAV, MP3, PPT."
+msgstr ""
+"Podporované typy súborov: HTML, TXT, CSS, GIF, PNG, JPEG, JPG, TIFF, BMP, "
+"AI, EPS, PS, CSV, RTF, PDF, DOC, DOCX, XLS, XLSX, ZIP, RAR, WAV, MP3, PPT."
+
+#: contact_form.php:358 includes/class-cntctfrm-settings.php:1072
+#: includes/class-cntctfrm-settings.php:1111
+msgid "Send me a copy"
+msgstr "Zaslať mi kópiu"
+
+#: contact_form.php:359 includes/class-cntctfrm-settings.php:1073
+#: includes/class-cntctfrm-settings.php:1112
+msgid "I consent to having this site collect my personal data."
+msgstr ""
+
+#: contact_form.php:360 includes/class-cntctfrm-settings.php:1074
+#: includes/class-cntctfrm-settings.php:1113
+msgid "Submit"
+msgstr "Odoslať"
+
+#: contact_form.php:361
+msgid "Your name is required."
+msgstr "Vaše meno je vyžadované."
+
+#: contact_form.php:362
+msgid "Address is required."
+msgstr "Adresa je vyžadovaná."
+
+#: contact_form.php:363
+msgid "A valid email address is required."
+msgstr "Platný E-mail je vyžadovaný."
+
+#: contact_form.php:364
+msgid "Phone number is required."
+msgstr "Telefónne číslo je vyžadované."
+
+#: contact_form.php:365
+msgid "Subject is required."
+msgstr "Predmet je vyžadovaný."
+
+#: contact_form.php:366
+msgid "Message text is required."
+msgstr "Správa je vyžadovaná."
+
+#: contact_form.php:367
+msgid "File format is not valid."
+msgstr "Nesprávny typ súboru."
+
+#: contact_form.php:368
+msgid "File upload error."
+msgstr "Nahrávanie súboru zlyhalo."
+
+#: contact_form.php:369
+msgid "The file could not be uploaded."
+msgstr "Súbor nemôže byť nahraný."
+
+#: contact_form.php:370
+msgid "This file is too large."
+msgstr "Súbor je príliš veľký."
+
+#: contact_form.php:371
+msgid "Please fill out the CAPTCHA."
+msgstr "Prosím opíšte CAPTCHA text."
+
+#: contact_form.php:372
+msgid "Please make corrections below and try again."
+msgstr "Prosím opravte chyby a skúste to opäť."
+
+#: contact_form.php:374
+msgid "Thank you for contacting us."
+msgstr "Ďakujeme za správu."
+
+#: contact_form.php:651
+msgid "NEW_FORM"
+msgstr ""
+
+#: contact_form.php:652
+msgid ""
+"If you want to create multiple contact forms, please install the Contact "
+"Form Multi plugin."
+msgstr ""
+"Ak si želáte vytvoriť viac formulárov, prosím nainštalujte si modul Contact "
+"Form Multi "
+
+#: contact_form.php:657
+msgid ""
+"Contact Form plugin doesn't support your current version of Contact Form "
+"Multi plugin. Please update Contact Form Multi plugin to version 1.2.6 or "
+"higher."
+msgstr ""
+
+#: contact_form.php:759
+msgid "Sorry, email message could not be delivered."
+msgstr "Prepáčte, správa nemohla byť doručená."
+
+#: contact_form.php:1366 contact_form.php:1368
+msgid "Sent from (ip address)"
+msgstr "Odoslané z (ip adresa)"
+
+#: contact_form.php:1372 contact_form.php:1374
+#: includes/class-cntctfrm-settings.php:1024
+msgid "Date/Time"
+msgstr "Datum / Čas"
+
+#: contact_form.php:1378 contact_form.php:1380
+#: includes/class-cntctfrm-settings.php:1025
+msgid "Sent from (referer)"
+msgstr "Odoslané z"
+
+#: contact_form.php:1384 contact_form.php:1386
+#: includes/class-cntctfrm-settings.php:1026
+msgid "Using (user agent)"
+msgstr "Použitie (user agent)"
+
+#: contact_form.php:1396
+msgid "Contact from"
+msgstr "Kontaktný formulár"
+
+#: contact_form.php:1401 contact_form.php:1450
+msgid "Site"
+msgstr "Stránka"
+
+#: contact_form.php:1423 contact_form.php:1467
+#: includes/class-cntctfrm-settings.php:598
+msgid "Email"
+msgstr "Email"
+
+#: contact_form.php:1439 contact_form.php:1480
+#: includes/class-cntctfrm-settings.php:1359
+msgid "Phone Number"
+msgstr "Tel. číslo"
+
+#: contact_form.php:1562
+msgid ""
+"If you can see this MIME, it means that the MIME type is not supported by "
+"your email client!"
+msgstr ""
+"Ak vidíte túto MIME, znamená to, že MIME typ nie je podporovaný vyším e-"
+"mailovým klientom!"
+
+#: contact_form.php:1634
+msgid "FAQ"
+msgstr "Často kladené otázky"
+
+#: contact_form.php:1635
+msgid "Support"
+msgstr "Podpora"
+
+#: contact_form.php:1684
+msgid "Are you sure that you want to delete this language data?"
+msgstr "Naozaj chcete vymazať tieto jazykové dáta?"
+
+#: contact_form.php:1706
+#, fuzzy
+msgid "Add multiple forms"
+msgstr "Pridať do formulára"
+
+#: contact_form.php:1706
+msgid ""
+"Install Contact Form Multi plugin to create unlimited number of contact "
+"forms."
+msgstr ""
+
+#: contact_form.php:1711
+#, fuzzy
+msgid "Learn more"
+msgstr "Zistiť viac"
+
+#: contact_form.php:1715 includes/class-cntctfrm-settings.php:469
+#: includes/class-cntctfrm-settings.php:987
+#: includes/class-cntctfrm-settings.php:1272
+msgid "Close"
+msgstr ""
+
+#: contact_form.php:1769
+msgid "Error"
+msgstr ""
+
+#: contact_form.php:1769 contact_form.php:1771
+msgid "Illegal language code"
+msgstr ""
+
+#: contact_form.php:1805 contact_form.php:1807
+#: includes/class-cntctfrm-settings.php:1089
+#: includes/class-cntctfrm-settings.php:1091
+#: includes/class-cntctfrm-settings.php:1128
+#: includes/class-cntctfrm-settings.php:1130
+#: includes/class-cntctfrm-settings.php:1162
+#: includes/class-cntctfrm-settings.php:1164
+#: includes/class-cntctfrm-settings.php:1176
+#: includes/class-cntctfrm-settings.php:1178
+msgid "Use shortcode"
+msgstr "Použite krátky kód"
+
+#: contact_form.php:1805 contact_form.php:1807
+#: includes/class-cntctfrm-settings.php:1089
+#: includes/class-cntctfrm-settings.php:1091
+#: includes/class-cntctfrm-settings.php:1128
+#: includes/class-cntctfrm-settings.php:1130
+#: includes/class-cntctfrm-settings.php:1162
+#: includes/class-cntctfrm-settings.php:1164
+#: includes/class-cntctfrm-settings.php:1176
+#: includes/class-cntctfrm-settings.php:1178
+msgid "for this language"
+msgstr "pre tento jazyk"
+
+#: contact_form.php:1955
+msgid "Close notice"
+msgstr ""
+
+#: contact_form.php:1960
+#, fuzzy
+msgid "allows to store your messages to the database."
+msgstr ""
+"<strong>Contact Form to DB</strong> vám dovolí ukladať spravy do databázy."
+
+#: contact_form.php:1961
+msgid "Manage messages that have been sent from your website."
+msgstr "Spravujte správy, ktoré boli odoslané z vašej stránky"
+
+#: contact_form.php:1964
+msgid "Learn More"
+msgstr "Zistiť viac"
+
+#: contact_form.php:2024
+#, fuzzy
+msgid "Contact form"
+msgstr "Kontaktný formulár"
+
+#: contact_form.php:2037 contact_form.php:2047
+#, fuzzy
+msgid "Language"
+msgstr "Pridať jazyk"
+
+#: includes/class-cntctfrm-settings.php:28
+#: includes/class-cntctfrm-settings.php:546
+msgid "Additional Settings"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:29
+#: includes/class-cntctfrm-settings.php:1198
+msgid "Appearance"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:30
+msgid "Misc"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:31
+msgid "License Key"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:32
+msgid "Custom Code"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:99
+msgid "Please enable JavaScript in your browser."
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:101
+#, php-format
+msgid ""
+"Contact Form plugin requires PHP %s or higher. Please contact your hosting "
+"provider to upgrade PHP version."
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:347
+msgid ""
+"Email 'FROM' field option was changed, which may cause email messages being "
+"moved to the spam folder or email delivery failures."
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:357
+msgid ""
+"If the 'Redirect to page' option is selected then the URL field should be in "
+"the following format"
+msgstr ""
+"Ak je vybratá možnosť \"Presmerovanie na stránku\" potom pole URL by malo "
+"mať nasledujúci formát"
+
+#: includes/class-cntctfrm-settings.php:364
+msgid "Such user does not exist."
+msgstr "Taký užívateľ neexistuje."
+
+#: includes/class-cntctfrm-settings.php:374
+msgid ""
+"Please enter a valid email address in the 'Use this email address' field."
+msgstr "Zadajte platnú e-mailovú adresu v poli \"Použiť tento email\"."
+
+#: includes/class-cntctfrm-settings.php:382
+msgid "Please enter a valid email address in the 'FROM' field."
+msgstr "Zadajte platnú e-mailovú adresu v poli \"Od\"."
+
+#: includes/class-cntctfrm-settings.php:402
+msgid "Settings saved."
+msgstr "Nastavenie uložené."
+
+#: includes/class-cntctfrm-settings.php:404
+msgid "Settings are not saved."
+msgstr "Nastavenie sa neuloží."
+
+#: includes/class-cntctfrm-settings.php:429
+msgid ""
+"If you leave the fields empty, the messages will be sent to the email "
+"address specified during registration."
+msgstr ""
+"Ak necháte pole prázdne, budú správy posielané na e-mailovú adresu zadanú "
+"pri registrácii."
+
+#: includes/class-cntctfrm-settings.php:432
+#, fuzzy
+msgid "The user's email address"
+msgstr "Užívateľova e-mailová adresa:"
+
+#: includes/class-cntctfrm-settings.php:437
+#, fuzzy
+msgid "Select a username"
+msgstr "Vytvorte užívateľské meno"
+
+#: includes/class-cntctfrm-settings.php:450
+#, fuzzy
+msgid ""
+"Select a username of the person who should get the messages from the contact "
+"form."
+msgstr ""
+"Zadajte užívateľské meno osoby, ktorá by mala dostať správy z kontaktného "
+"formulára."
+
+#: includes/class-cntctfrm-settings.php:455
+#, fuzzy
+msgid "Use this email address"
+msgstr "Použíte tento email::"
+
+#: includes/class-cntctfrm-settings.php:460
+#, fuzzy
+msgid "Enter the email address for receiving messages"
+msgstr "Zadajte e-mailovú adresu, ktorú chcete do správy presmerovať."
+
+#: includes/class-cntctfrm-settings.php:473
+#, fuzzy
+msgid "Add department selectbox to the contact form"
+msgstr "Pridať oddelenie výberového oddielu do formulára:"
+
+#: includes/class-cntctfrm-settings.php:492
+msgid "Save emails to the database"
+msgstr "Uložiť emaily do databázy"
+
+#: includes/class-cntctfrm-settings.php:504
+#: includes/class-cntctfrm-settings.php:518
+#: includes/class-cntctfrm-settings.php:525
+msgid "Using"
+msgstr "Používa"
+
+#: includes/class-cntctfrm-settings.php:510
+#: includes/class-cntctfrm-settings.php:889
+#: includes/class-cntctfrm-settings.php:930
+#: includes/class-cntctfrm-settings.php:965
+msgid "Please activate the appropriate option on"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:513
+#: includes/class-cntctfrm-settings.php:892
+#: includes/class-cntctfrm-settings.php:933
+#: includes/class-cntctfrm-settings.php:968
+#, fuzzy
+msgid "settings page"
+msgstr "stránku nastavení"
+
+#: includes/class-cntctfrm-settings.php:519
+#: includes/class-cntctfrm-settings.php:899
+#: includes/class-cntctfrm-settings.php:941
+#: includes/class-cntctfrm-settings.php:975
+msgid "Activate"
+msgstr "Aktivovať"
+
+#: includes/class-cntctfrm-settings.php:526
+#: includes/class-cntctfrm-settings.php:908
+#: includes/class-cntctfrm-settings.php:947
+#: includes/class-cntctfrm-settings.php:980
+msgid "Download"
+msgstr "Stiahnuť"
+
+#: includes/class-cntctfrm-settings.php:551
+msgid "Sending method"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:556
+msgid "Wp-mail"
+msgstr "Wp-mail"
+
+#: includes/class-cntctfrm-settings.php:557
+#, fuzzy
+msgid "You can use the Wordpress wp_mail function for mailing"
+msgstr "Môžete použiť wp_mail funkcie pre zasielanie"
+
+#: includes/class-cntctfrm-settings.php:562
+msgid "Mail"
+msgstr "Email"
+
+#: includes/class-cntctfrm-settings.php:563
+#, fuzzy
+msgid "You can use the PHP mail function for mailing"
+msgstr "Môžete použiť wp_mail funkcie pre zasielanie"
+
+#: includes/class-cntctfrm-settings.php:569
+msgid "'FROM' field"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:585
+msgid "User name"
+msgstr "Používateľské meno"
+
+#: includes/class-cntctfrm-settings.php:587
+msgid ""
+"The name of the user who fills the form will be used in the field 'From'."
+msgstr "Meno, zobrazené ako odosielateľ emailu."
+
+#: includes/class-cntctfrm-settings.php:609
+msgid "User email"
+msgstr "Používateľský email"
+
+#: includes/class-cntctfrm-settings.php:611
+msgid ""
+"The email address of the user who fills the form will be used in the field "
+"'From'."
+msgstr ""
+"Emailová adresa používateľa, ktorý vyplní formulár bude použitá v poli \"Od\""
+
+#: includes/class-cntctfrm-settings.php:620
+msgid ""
+"If this option is changed, email messages may be moved to the spam folder or "
+"email delivery failures may occur."
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:629
+msgid "Required symbol"
+msgstr "Vyžadovaný znak"
+
+#: includes/class-cntctfrm-settings.php:639
+msgid "Fields"
+msgstr "Polia"
+
+#: includes/class-cntctfrm-settings.php:640
+#: includes/class-cntctfrm-settings.php:667
+#: includes/class-cntctfrm-settings.php:694
+#: includes/class-cntctfrm-settings.php:714
+#: includes/class-cntctfrm-settings.php:750
+#: includes/class-cntctfrm-settings.php:832
+msgid "Used"
+msgstr "Použité"
+
+#: includes/class-cntctfrm-settings.php:641
+#: includes/class-cntctfrm-settings.php:656
+#: includes/class-cntctfrm-settings.php:671
+#: includes/class-cntctfrm-settings.php:698
+#: includes/class-cntctfrm-settings.php:718
+#: includes/class-cntctfrm-settings.php:754
+#: includes/class-cntctfrm-settings.php:767
+#: includes/class-cntctfrm-settings.php:791
+msgid "Required"
+msgstr "Vyžadované"
+
+#: includes/class-cntctfrm-settings.php:643
+#: includes/class-cntctfrm-settings.php:676
+#: includes/class-cntctfrm-settings.php:733
+#: includes/class-cntctfrm-settings.php:772
+#: includes/class-cntctfrm-settings.php:796
+msgid "Visible"
+msgstr "Viditeľné"
+
+#: includes/class-cntctfrm-settings.php:644
+#: includes/class-cntctfrm-settings.php:680
+#: includes/class-cntctfrm-settings.php:737
+#: includes/class-cntctfrm-settings.php:776
+#: includes/class-cntctfrm-settings.php:800
+msgid "Disabled for editing"
+msgstr "Nedá sa upraviť"
+
+#: includes/class-cntctfrm-settings.php:645
+#: includes/class-cntctfrm-settings.php:704
+#: includes/class-cntctfrm-settings.php:780
+#: includes/class-cntctfrm-settings.php:804
+msgid "Field's default value"
+msgstr "Základná hodnota pola"
+
+#: includes/class-cntctfrm-settings.php:652
+#, fuzzy
+msgid "Department selectbox"
+msgstr "Poloha výberového oddielu"
+
+#: includes/class-cntctfrm-settings.php:684
+msgid "Use User's name as a default value if the user is logged in."
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:685
+#: includes/class-cntctfrm-settings.php:742
+msgid ""
+"'Visible' and 'Disabled for editing' options will be applied only to logged-"
+"in users."
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:691
+msgid "Location selectbox"
+msgstr "Poloha výberového oddielu"
+
+#: includes/class-cntctfrm-settings.php:741
+msgid "Use User's email as a default value if the user is logged in."
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:825
+msgid "Attachment block"
+msgstr "Blok príloh"
+
+#: includes/class-cntctfrm-settings.php:827
+msgid "Users can attach the following file formats"
+msgstr "Užívatelia môžu pripojiť nasledujúce formáty súborov"
+
+#: includes/class-cntctfrm-settings.php:845
+msgid "Add to the form"
+msgstr "Pridať do formulára"
+
+#: includes/class-cntctfrm-settings.php:850
+msgid "Tips below the Attachment"
+msgstr "Rady zobrazené pod prílohami"
+
+#: includes/class-cntctfrm-settings.php:857
+msgid "'Send me a copy' block"
+msgstr "Zobraziť blok  'Zaslať kópiu'"
+
+#: includes/class-cntctfrm-settings.php:864
+msgid "GDPR Compliance"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:869
+msgid "Link to Privacy Policy Page"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:873
+msgid "Text for Privacy Policy Link"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:901
+#, fuzzy
+msgid "Activate for network"
+msgstr "Aktivované pluginy"
+
+#: includes/class-cntctfrm-settings.php:991
+msgid "Agreement checkbox"
+msgstr "Označenie súhlasu"
+
+#: includes/class-cntctfrm-settings.php:991
+msgid "Required checkbox for submitting the form"
+msgstr "Vyžaduje označenie súhlasu pri odoslaní formulára"
+
+#: includes/class-cntctfrm-settings.php:992
+msgid "Optional checkbox"
+msgstr "Voliteľné zaškrtávacie políčko"
+
+#: includes/class-cntctfrm-settings.php:992
+msgid "Optional checkbox, the results of which will be displayed in email"
+msgstr "Voliteľné zaškrtávacie políčko, jeho výsledok bude zobrazený v emaile"
+
+#: includes/class-cntctfrm-settings.php:1007
+msgid "Delete an attachment file from the server after the email is sent"
+msgstr "Vymazať prílohy zo servera po odoslaní emailu"
+
+#: includes/class-cntctfrm-settings.php:1013
+msgid "Email in HTML format sending"
+msgstr "Povoliť HTML formátovanie"
+
+#: includes/class-cntctfrm-settings.php:1017
+msgid "Display additional info in the email"
+msgstr "Zobraziť ďalšie informácie v e-maile"
+
+#: includes/class-cntctfrm-settings.php:1023
+#, fuzzy
+msgid "Sent from (IP address)"
+msgstr "Odoslané z (ip adresa)"
+
+#: includes/class-cntctfrm-settings.php:1023
+msgid "Example: Sent from (IP address): 127.0.0.1"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1024
+msgid "Example: Date/Time: August 19, 2013 8:50 pm"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1025
+msgid ""
+"Example: Sent from (referer):   https://bestwebsoft.com/contacts/contact-us/"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1026
+msgid ""
+"Example: Using (user agent): Mozilla/5.0 (Windows NT 6.2; WOW64) "
+"AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1031
+msgid "Language settings for the field names in the form"
+msgstr "Nastavenie jazyka pre názvy polí vo formulári"
+
+#: includes/class-cntctfrm-settings.php:1040
+msgid "Add a language"
+msgstr "Pridať jazyk"
+
+#: includes/class-cntctfrm-settings.php:1044
+msgid "Change the names of the contact form fields and error messages"
+msgstr "Zmena názvov polí kontaktného formulára a chybových hlásení"
+
+#: includes/class-cntctfrm-settings.php:1049
+#: includes/class-cntctfrm-settings.php:1147
+#: includes/class-cntctfrm-settings.php:1252
+msgid "Default"
+msgstr "Základná"
+
+#: includes/class-cntctfrm-settings.php:1062
+#: includes/class-cntctfrm-settings.php:1101
+msgid "click to expand/hide the list"
+msgstr "kliknite pre rozbalenie/schovanie zoznamu"
+
+#: includes/class-cntctfrm-settings.php:1071
+#: includes/class-cntctfrm-settings.php:1110
+msgid "Tips below the Attachment block"
+msgstr "Zobrazenie rád pod blokom príloh"
+
+#: includes/class-cntctfrm-settings.php:1075
+#: includes/class-cntctfrm-settings.php:1114
+msgid "Error message for the Name field"
+msgstr "Chybová správa v poli: Meno"
+
+#: includes/class-cntctfrm-settings.php:1076
+#: includes/class-cntctfrm-settings.php:1115
+msgid "Error message for the Address field"
+msgstr "Chybová správa v poli: Adresa"
+
+#: includes/class-cntctfrm-settings.php:1077
+#: includes/class-cntctfrm-settings.php:1116
+msgid "Error message for the Email field"
+msgstr "Chybová správa v poli: Email"
+
+#: includes/class-cntctfrm-settings.php:1078
+#: includes/class-cntctfrm-settings.php:1117
+msgid "Error message for the Phone field"
+msgstr "Chybová správa v poli: Telefón"
+
+#: includes/class-cntctfrm-settings.php:1079
+#: includes/class-cntctfrm-settings.php:1118
+msgid "Error message for the Subject field"
+msgstr "Chybová správa v poli: Predmet"
+
+#: includes/class-cntctfrm-settings.php:1080
+#: includes/class-cntctfrm-settings.php:1119
+msgid "Error message for the Message field"
+msgstr "Chybová správa v poli: Správa"
+
+#: includes/class-cntctfrm-settings.php:1081
+#: includes/class-cntctfrm-settings.php:1120
+msgid "Error message about the file type for the Attachment field"
+msgstr "Chybová správa o type súbora v poli príloh"
+
+#: includes/class-cntctfrm-settings.php:1082
+#: includes/class-cntctfrm-settings.php:1121
+msgid ""
+"Error message while uploading a file for the Attachment field to the server"
+msgstr "Chybová správa pri neúspešnom nahraní súbora na server"
+
+#: includes/class-cntctfrm-settings.php:1083
+#: includes/class-cntctfrm-settings.php:1122
+msgid "Error message while moving the file for the Attachment field"
+msgstr "Chybová správa pri neúspešnom presune súbora do pola prílohy"
+
+#: includes/class-cntctfrm-settings.php:1084
+#: includes/class-cntctfrm-settings.php:1123
+msgid "Error message when file size limit for the Attachment field is exceeded"
+msgstr "Chybová správa pri prekročení maximálnej veľkosti súboru"
+
+#: includes/class-cntctfrm-settings.php:1085
+#: includes/class-cntctfrm-settings.php:1124
+msgid "Error message for the Captcha field"
+msgstr "Chybová správa v poli Captcha"
+
+#: includes/class-cntctfrm-settings.php:1086
+#: includes/class-cntctfrm-settings.php:1125
+msgid "Error message for the whole form"
+msgstr "Chybová správa celého formulára"
+
+#: includes/class-cntctfrm-settings.php:1138
+msgid "Use the changed names of the contact form fields in the email"
+msgstr "Použite zmenu názvov polí v emaile"
+
+#: includes/class-cntctfrm-settings.php:1144
+msgid "Action after email is sent"
+msgstr "Akcia po zaslaní mailu."
+
+#: includes/class-cntctfrm-settings.php:1146
+msgid "Display text"
+msgstr "Zobraziť text"
+
+#: includes/class-cntctfrm-settings.php:1160
+#: includes/class-cntctfrm-settings.php:1174
+msgid "Text"
+msgstr "Text"
+
+#: includes/class-cntctfrm-settings.php:1185
+msgid "Redirect to the page"
+msgstr "Presmerovať na stránku"
+
+#: includes/class-cntctfrm-settings.php:1186
+msgid "Url"
+msgstr "Url"
+
+#: includes/class-cntctfrm-settings.php:1206
+#, php-format
+msgid ""
+"Please enable JavaScript to change '%s', '%s', '%s', '%s' options and for "
+"fields sorting."
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1207
+#: includes/class-cntctfrm-settings.php:1224
+msgid "Form layout"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1208
+#: includes/class-cntctfrm-settings.php:1291
+#, fuzzy
+msgid "Labels position"
+msgstr "Porvrdzovacie tlačidlo"
+
+#: includes/class-cntctfrm-settings.php:1209
+#: includes/class-cntctfrm-settings.php:1309
+msgid "Labels align"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1210
+#: includes/class-cntctfrm-settings.php:1236
+#, fuzzy
+msgid "Submit position"
+msgstr "Porvrdzovacie tlačidlo"
+
+#: includes/class-cntctfrm-settings.php:1211
+#: includes/class-cntctfrm-settings.php:1340
+msgid "Add tooltips"
+msgstr "Pridať popisky"
+
+#: includes/class-cntctfrm-settings.php:1212
+#: includes/class-cntctfrm-settings.php:1381
+msgid "Style options"
+msgstr "Nastavenie štýlu"
+
+#: includes/class-cntctfrm-settings.php:1228
+msgid "One column"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1231
+msgid "Two columns"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1240
+#: includes/class-cntctfrm-settings.php:1280
+#: includes/class-cntctfrm-settings.php:1298
+#: includes/class-cntctfrm-settings.php:1313
+msgid "Left"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1243
+#: includes/class-cntctfrm-settings.php:1286
+#: includes/class-cntctfrm-settings.php:1301
+#: includes/class-cntctfrm-settings.php:1319
+msgid "Right"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1248
+msgid "Width"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1256
+msgid "Custom"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1263
+msgid "px"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1276
+msgid "Form align"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1283
+#: includes/class-cntctfrm-settings.php:1316
+msgid "Center"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1295
+msgid "Top"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1304
+msgid "Bottom"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1324
+msgid "Errors output"
+msgstr "Chybový výstup"
+
+#: includes/class-cntctfrm-settings.php:1327
+msgid "Display error messages"
+msgstr "Zobrazí chybové správy"
+
+#: includes/class-cntctfrm-settings.php:1328
+msgid "Color of the input field errors."
+msgstr "Farba textu chybových polí."
+
+#: includes/class-cntctfrm-settings.php:1329
+msgid "Display error messages & color of the input field errors"
+msgstr "Zobrazí chybové správy a ich farbu"
+
+#: includes/class-cntctfrm-settings.php:1334
+msgid "Add placeholder to the input blocks"
+msgstr "Pridať zástupný znak do blokov"
+
+#: includes/class-cntctfrm-settings.php:1354
+msgid "Email address"
+msgstr "Emailová adresa"
+
+#: includes/class-cntctfrm-settings.php:1385
+msgid "Text color"
+msgstr "Farba textu"
+
+#: includes/class-cntctfrm-settings.php:1393
+msgid "Label text color"
+msgstr "Označenie farby textu"
+
+#: includes/class-cntctfrm-settings.php:1402
+msgid "Placeholder color"
+msgstr "Farba zástupného znaku"
+
+#: includes/class-cntctfrm-settings.php:1407
+msgid "Errors color"
+msgstr "Farba chýb"
+
+#: includes/class-cntctfrm-settings.php:1415
+msgid "Error text color"
+msgstr "Farba textu"
+
+#: includes/class-cntctfrm-settings.php:1423
+msgid "Background color of the input field errors"
+msgstr "Farba pozadia polí chýb"
+
+#: includes/class-cntctfrm-settings.php:1431
+msgid "Border color of the input field errors"
+msgstr "Farba ohraničenia polí chýb"
+
+#: includes/class-cntctfrm-settings.php:1439
+msgid "Placeholder color of the input field errors"
+msgstr "Farba zástupného znaku polí chýb"
+
+#: includes/class-cntctfrm-settings.php:1444
+msgid "Input fields"
+msgstr "Vložiť polia"
+
+#: includes/class-cntctfrm-settings.php:1452
+msgid "Input fields background color"
+msgstr "Farba pozadia polí"
+
+#: includes/class-cntctfrm-settings.php:1460
+msgid "Text fields color"
+msgstr "Farba textových polí"
+
+#: includes/class-cntctfrm-settings.php:1464
+msgid "Border width in px, numbers only"
+msgstr "Šírka orámovania v px, vkladajte iba číselné hodnoty"
+
+#: includes/class-cntctfrm-settings.php:1472
+#: includes/class-cntctfrm-settings.php:1505
+msgid "Border color"
+msgstr "Farba ohraničenia"
+
+#: includes/class-cntctfrm-settings.php:1477
+msgid "Submit button"
+msgstr "Porvrdzovacie tlačidlo"
+
+#: includes/class-cntctfrm-settings.php:1481
+msgid "Width in px, numbers only"
+msgstr "Šírka v px, vkladajte iba číselné hodnoty"
+
+#: includes/class-cntctfrm-settings.php:1489
+msgid "Button color"
+msgstr "Farba tlačidla"
+
+#: includes/class-cntctfrm-settings.php:1497
+msgid "Button text color"
+msgstr "Farba textu v tlačidle"
+
+#: includes/class-cntctfrm-settings.php:1524
+#, fuzzy
+msgid "Contact Form | Preview"
+msgstr "Kontaktný formulár Pro | Zobrazenie"
+
+#: includes/class-cntctfrm-settings.php:1525
+msgid "Drag the necessary field to sort fields."
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1772
+msgid "Contact Form Shortcode"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1775
+msgid "Add Contact Form  to your page or post using the following shortcode:"
+msgstr ""
+
+#~ msgid "If you upgrade to Pro version all your settings will be saved."
+#~ msgstr "Ak si zakúpite PRO verziu, vaše nastavenia sa uložia."
+
+#, fuzzy
+#~ msgid ""
+#~ "If you would like to add the Contact Form to your website, just copy and "
+#~ "paste this shortcode to your post or page or widget"
+#~ msgstr ""
+#~ "Ak by ste chceli pridať kontaktný formulár na svoje webové stránky, stačí "
+#~ "skopírovať a vložiť shortcode k príspevku, stránke alebo widgetu:"
+
+#~ msgid "Save Changes"
+#~ msgstr "Uložiť zmeny"
+
+#~ msgid "Contact Form"
+#~ msgstr "Kontaktný formulár"
+
+#, fuzzy
+#~ msgid "Additional settings"
+#~ msgstr "Ďalšie nastavenia"
+
+#~ msgid "Go PRO"
+#~ msgstr "Zakúpiť PRO"
+
+#, fuzzy
+#~ msgid "Notice"
+#~ msgstr "Oznam:"
+
+#, fuzzy
+#~ msgid ""
+#~ "If you would like to add a Contact Form to your page or post, please use "
+#~ "%s button"
+#~ msgstr ""
+#~ "Ak by ste chceli pridať kontaktný formulár na svoje webové stránky, stačí "
+#~ "skopírovať a vložiť shortcode k príspevku, stránke alebo widgetu:"
+
+#~ msgid "Example: Sent from (IP address):\t127.0.0.1"
+#~ msgstr "Príklad: Odoslané z (IP addresa):\t127.0.0.1"
+
+#~ msgid "Example: Date/Time:\tAugust 19, 2013 8:50 pm"
+#~ msgstr "Príklad: Dátum/Čas:\tAugust 19, 2013 8:50 pm"
+
+#, fuzzy
+#~ msgid ""
+#~ "Example: Sent from (referer):\thttps://bestwebsoft.com/contacts/contact-"
+#~ "us/"
+#~ msgstr ""
+#~ "Príklad: Odoslané pomocou (odkaz):\thttp://bestwebsoft.com/contacts/"
+#~ "contact-us/"
+
+#~ msgid ""
+#~ "Example: Using (user agent):\tMozilla/5.0 (Windows NT 6.2; WOW64) "
+#~ "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36"
+#~ msgstr ""
+#~ "Príklad: Prehliadač (používateľ):\tMozilla/5.0 (Windows NT 6.2; WOW64) "
+#~ "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36"
+
+#, fuzzy
+#~ msgid "Unlock premium options by upgrading to Pro version"
+#~ msgstr "Odblokujte prémiové nastavenia kúpením PRO verzie modulu."
+
+#~ msgid "Name:"
+#~ msgstr "Meno:"
+
+#~ msgid "Address:"
+#~ msgstr "Adresa::"
+
+#~ msgid "Email Address:"
+#~ msgstr "E-Mail:"
+
+#~ msgid "Phone number:"
+#~ msgstr "Telefónne číslo:"
+
+#~ msgid "Subject:"
+#~ msgstr "Predmet:"
+
+#~ msgid "Message:"
+#~ msgstr "Správa:"
+
+#~ msgid "Attachment:"
+#~ msgstr "Príloha"
+
+#, fuzzy
+#~ msgid ""
+#~ "Please enable JavaScript to add language in the contact form, change the "
+#~ "names of the contact form fields and error messages."
+#~ msgstr "Zmena názvov polí kontaktného formulára a chybových hlásení"
+
+#~ msgid "What to use?"
+#~ msgstr "Čo používať?"
+
+#, fuzzy
+#~ msgid "Using Contact Form to DB by BestWebSoft"
+#~ msgstr "Použiť Contact Forrm do DB poháňaný"
+
+#, fuzzy
+#~ msgid "Activate Captcha"
+#~ msgstr "Aktivovať captcha"
+
+#, fuzzy
+#~ msgid "Download Captcha"
+#~ msgstr "Stiahnuť captcha"
+
+#~ msgid "Phone"
+#~ msgstr "Telefón"
+
+#~ msgid "To send mail you can use the php mail function"
+#~ msgstr "Ak chcete odosielať poštu, môžete použiť e-mailoé PHP funkcie"
+
+#~ msgid "English"
+#~ msgstr "Anglicky"
+
+#~ msgid "or"
+#~ msgstr "alebo"
+
+#, fuzzy
+#~ msgid ""
+#~ "If you have any problems with the standard shortcode [contact_form], you "
+#~ "should use the shortcode"
+#~ msgstr ""
+#~ "Ak máte nejaké problémy so štandardným shortcode [contact_form], mali by "
+#~ "ste použiť shortcode"
+
+#~ msgid "They work the same way."
+#~ msgstr "Fungujú rovnakým spôsobom."
+
+#~ msgid ""
+#~ "If have any problems with the standard shortcode [contact_form], you "
+#~ "should use the shortcode"
+#~ msgstr ""
+#~ "Ak máte nejaké problémy so štandardným shortcode [contact_form], mali by "
+#~ "ste použiť shortcode"
+
+#~ msgid "The $_SERVER variable that is used to build a URL of the form"
+#~ msgstr "$_SERVER je premenná použitá na stavbu URL adresy formulára"
+
+#~ msgid ""
+#~ "If you are not sure whether to change this setting or not, please do not "
+#~ "do that."
+#~ msgstr "Ak si nie ste istý, nemeňte toto nastavenie."
+
+#~ msgid ""
+#~ "The plugin's settings have been changed. In order to save them please "
+#~ "don't forget to click the 'Save Changes' button."
+#~ msgstr ""
+#~ "Zmenili ste nastavenia modulu. Pre uloženie zmien, kliknite na tlačidlo "
+#~ "\"Uložiť zmeny\"."
+
+#, fuzzy
+#~ msgid "Unlock premium options by upgrading to PRO version."
+#~ msgstr "Odblokujte prémiové nastavenia kúpením PRO verzie modulu."
+
+#~ msgid "Go"
+#~ msgstr "Ísť"
+
+#~ msgid "Show with errors"
+#~ msgstr "Zobraziť s chybami"
+
+#~ msgid "Please enter your full name..."
+#~ msgstr "Prosím, zadajte vaše celé meno..."
+
+#~ msgid "Please enter your address..."
+#~ msgstr "Prosím, zadajte vašu emailovú adresu..."
+
+#~ msgid "Please enter your email address..."
+#~ msgstr "Prosím zadajte vašu e-mailovú adresu..."
+
+#~ msgid "Please enter your phone number..."
+#~ msgstr "Prosím, zadajte vaše telefónne číslo..."
+
+#~ msgid "Please enter subject..."
+#~ msgstr "Prosím, zadajte predmet..."
+
+#~ msgid "Please enter your message..."
+#~ msgstr "Prosím, zadajte vašu správu..."
+
+#~ msgid "powered by"
+#~ msgstr "poháňa"
+
+#~ msgid "Activate Contact Form to DB"
+#~ msgstr "Aktivovať Contact Form 7 do DB"
+
+#~ msgid "Download Contact Form to DB"
+#~ msgstr "Stiahnuť Contact Form 7 do DB"
+
+#~ msgid "Captcha"
+#~ msgstr "Captcha"
+
+#~ msgid "(powered by bestwebsoft.com)"
+#~ msgstr "(poháňa bestwebsoft.com)"
+
+#~ msgid "requires"
+#~ msgstr "vyžaduje"
+
+#~ msgid ""
+#~ "or higher, that is why it has been deactivated! Please upgrade WordPress "
+#~ "and try again."
+#~ msgstr ""
+#~ "alebo vyššiu. Prosím, aktualizujte WordPress a skúste pokus opakovať."
+
+#~ msgid "Back to the WordPress"
+#~ msgstr "Späť na WordPress"
+
+#~ msgid "Plugins page"
+#~ msgstr "Stránka modulov"
+
+#~ msgid "Wrong license key"
+#~ msgstr "Zlý licenčný kľúč"
+
+#~ msgid ""
+#~ "Something went wrong. Try again later. If the error will appear again, "
+#~ "please, contact us <a href=http://support.bestwebsoft.com>BestWebSoft</"
+#~ "a>. We are sorry for inconvenience."
+#~ msgstr ""
+#~ "Ničo sa pokazilo. Skúste to o chvíľu. Ak sa chyba bude opakovať, "
+#~ "kontaktujte <a href=http://support.bestwebsoft.com>podporu BestWebSoft</"
+#~ "a>. Ospravedlňujeme sa."
+
+#~ msgid "This license key is bind to another site"
+#~ msgstr "Licenčný kľúč patrí inej stránke"
+
+#~ msgid ""
+#~ "Unfortunately, you have exceeded the number of available tries per day. "
+#~ "Please, upload the plugin manually."
+#~ msgstr ""
+#~ "Ľutujeme, využili ste maximálny počet pokusov na tento deň. Aktualizujte "
+#~ "modul manuálne."
+
+#~ msgid ""
+#~ "Failed to download the zip archive. Please, upload the plugin manually"
+#~ msgstr "Zlyhalo stiahnutie .zip súbora. Prosím, aktualizujte modul manuálne"
+
+#~ msgid "Failed to open the zip archive. Please, upload the plugin manually"
+#~ msgstr "Nepodarilo sa otvoriť .zip archív. Aktualizujte súbor manuálne."
+
+#~ msgid ""
+#~ "Your server does not support either ZipArchive or Phar. Please, upload "
+#~ "the plugin manually"
+#~ msgstr ""
+#~ "Váš server nepodporuje  ZipArchive alebo Phar. Aktualizujte modul manuálne"
+
+#, fuzzy
+#~ msgid "UploadDir is not writable. Please, upload the plugin manually"
+#~ msgstr "Nepodarilo sa otvoriť .zip archív. Aktualizujte súbor manuálne."
+
+#~ msgid ""
+#~ "Something went wrong. Try again later or upload the plugin manually. We "
+#~ "are sorry for inconvienience."
+#~ msgstr ""
+#~ "Ospravedlňujeme sa. Stala sa chyba. Prosím aktualizujte modul manuálne."
+
+#~ msgid "Please, enter Your license key"
+#~ msgstr "Prosím zadajte váš licenčný kľúč"
+
+#~ msgid "If you enjoy our plugin, please give it 5 stars on WordPress"
+#~ msgstr ""
+#~ "Ak sa vám páči tento modul, ohodnoťte ho na WordPress.org 5 timi "
+#~ "hviezdami."
+
+#~ msgid "Rate the plugin"
+#~ msgstr "Ohodnotiť modul"
+
+#~ msgid "If there is something wrong about it, please contact us"
+#~ msgstr "Ak sa vám na tom niečo nepáči, kontaktujte nás"
+
+#~ msgid ""
+#~ "Congratulations! The PRO version of the plugin is successfully download "
+#~ "and activated."
+#~ msgstr "Gratulujeme! Pro verzia modulu je nainštalovaná a aktívna."
+
+#~ msgid "Please, go to"
+#~ msgstr "Prosím, choďte na"
+
+#~ msgid "You will be redirected automatically in 5 seconds."
+#~ msgstr "Za 5 sekúnd budete automaticky presmerovaní."
+
+#~ msgid "You can download and activate"
+#~ msgstr "Môžete stiahnuť a aktivovať"
+
+#~ msgid "version of this plugin by entering Your license key."
+#~ msgstr "verziu tohto modulu, pomocou vašeho licenčného kľuča"
+
+#~ msgid ""
+#~ "You can find your license key on your personal page Client area, by "
+#~ "clicking on the link"
+#~ msgstr "Licenčný kľúč nájdete na vašej osobnej stránke v oblasti Klient."
+
+#~ msgid ""
+#~ "(your username is the email you specify when purchasing the product)."
+#~ msgstr "(používateľské meno predstavuje email zadaný pri platbe produktu)"
+
+#~ msgid ""
+#~ "It’s time to upgrade your <strong>Contact Form plugin</strong> to "
+#~ "<strong>PRO</strong> version"
+#~ msgstr ""
+#~ "Je čas na zakúpenie<strong>Pro verzie </strong> modulu <strong>Contact "
+#~ "Form </strong>"
+
+#~ msgid "Extend standard plugin functionality with new great options."
+#~ msgstr "Rozšírte možnosti štandardného modulu."
+
+#~ msgid "Extra settings"
+#~ msgstr "Extra nastavenia"
+
+#~ msgid "Show"
+#~ msgstr "Zobraziť"
+
+#~ msgid "Hide"
+#~ msgstr "Schovať"
+
+#~ msgid "The text in the 'From' field"
+#~ msgstr "Text v poli \"od\""
+
+#~ msgid "This text will be used in the 'FROM' field"
+#~ msgstr "Text v poli \"od\""
+
+#~ msgid "The email address in the 'From' field"
+#~ msgstr "E-mailová adresa v poli \"od\""
+
+#~ msgid "This email address will be used in the 'From' field."
+#~ msgstr "Táto e-mailová adresa bude použitá v poli 'od'."
+
+#~ msgid "Contact Form Pro"
+#~ msgstr "Kontaktný formulár Pro"
+
+#~ msgid "Contact Form Pro Extra Settings"
+#~ msgstr "Kontaktný formulár Pro Extra - nastavenie"
+
+#~ msgid "Contact Form Pro | Extra Settings"
+#~ msgstr "Kontaktný formulár | Extra nastavenie"
+
+#~ msgid "Display fields"
+#~ msgstr "Zobraz polia"
+
+#~ msgid "Display tips below the Attachment block"
+#~ msgstr "Zobrazenie tipov pod blokom príloh"
+
+#~ msgid "Required fields"
+#~ msgstr "Vyžadované polia"
+
+#~ msgid "You can attach the following file formats"
+#~ msgstr "Môžete pripojiť nasledujúce formáty súborov"
+
+#~ msgid "Memory usage"
+#~ msgstr "Využitie pamäte"
+
+#~ msgid "Site URL"
+#~ msgstr "Stránka URL"
+
+#~ msgid "Please enter a valid email address."
+#~ msgstr "Zadajte platnú emailovú adresu."
+
+#~ msgid "Read more"
+#~ msgstr "Čítať viac"
+
+#~ msgid "Installed plugins"
+#~ msgstr "Inštalované pluginy"
+
+#~ msgid "Recommended plugins"
+#~ msgstr "Doporučované pluginy"
+
+#~ msgid "Install %s"
+#~ msgstr "Inštalovaniee %s"
+
+#~ msgid "Install now from wordpress.org"
+#~ msgstr "Inštaluje teraz z wordpress.org"
+
+#~ msgid "Active Plugins"
+#~ msgstr "Aktivované pluginy"
+
+#~ msgid "Inactive Plugins"
+#~ msgstr "Neaktívne pluginy"
+
+#~ msgid "Send to support"
+#~ msgstr "Odoslať na podporu"
+
+#~ msgid "Contact Form Options"
+#~ msgstr "Nastavení kontaktního formuláře"
+
+#~ msgid "Display Attachment tips"
+#~ msgstr "Zobrazit vysvětlivky k příloze."
+
+#~ msgid "Please enter a valid email address. Settings are not saved."
+#~ msgstr "Vložte správný mail. Nastavení neuloženo."
+
+#~ msgid "E-Mail Address"
+#~ msgstr "E-Mail:"
+
+#~ msgid "E-Mail Addresse:"
+#~ msgstr "Indirizzo e-mail:"
+
+#~ msgid "Install Now"
+#~ msgstr "Installa Ora"
