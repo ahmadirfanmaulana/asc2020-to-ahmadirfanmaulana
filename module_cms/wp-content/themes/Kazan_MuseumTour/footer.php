@@ -1,8 +1,19 @@
 </div>
 <footer id="footer">
-<div id="copyright">
-&copy; <?php echo esc_html( date_i18n( __( 'Y', 'blankslate' ) ) ); ?> <?php echo esc_html( get_bloginfo( 'name' ) ); ?>
-</div>
+    <div class="container">
+        <div id="copyright">
+            Copyright © <?= date('Y') ?> - All rights reserved
+        </div>
+        <div class="social-media">
+
+            <?php foreach (get_posts(['post_type' => 'social-media', 'posts_per_page' => -1]) as $item) : ?>
+                <a href="<?= $item->post_content; ?>" target="_blank" class="without-ajax">
+                    <?= $item->post_title; ?>
+                </a>
+            <?php endforeach; ?>
+
+        </div>
+    </div>
 </footer>
 </div>
 <?php wp_footer(); ?>

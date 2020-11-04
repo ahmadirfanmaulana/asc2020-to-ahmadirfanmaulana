@@ -73,7 +73,7 @@ function get_museums () {
 }
 
 // get news
-function get_news ($state) {
+function get_news ($state = false) {
     $args = [
         'post_type' => 'post',
     ];
@@ -89,3 +89,8 @@ function get_news ($state) {
     return $posts;
 }
 
+
+// wp contact
+add_filter('wpcf7_form_action_url', function () {
+    return "https://formspree.io/email@domain.tld";
+});

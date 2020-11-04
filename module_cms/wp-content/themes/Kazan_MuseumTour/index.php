@@ -14,7 +14,7 @@ if (!isset($_POST['from_ajax'])) {
                     <h3 class="hero-subtitle">
                         The most amazing museum in the world.
                     </h3>
-                    <a href="#list-museum" class="btn btn-cta">Discover Museum</a>
+                    <a href="#museum-list" class="btn btn-cta without-ajax">Discover Museum</a>
                 </div>
             </div>
         </section>
@@ -25,7 +25,7 @@ if (!isset($_POST['from_ajax'])) {
             <div class="section-header">
                 <div class="container">
                     <h2 class="section-title">Hotest Museums</h2>
-                    <a href="" class="link">All Museums</a>
+                    <a href="<?php echo site_url('/museums') ?>" class="link">All Museums</a>
                 </div>
             </div>
 
@@ -52,11 +52,11 @@ if (!isset($_POST['from_ajax'])) {
 
             <div class="container">
                 <!-- News Section -->
-                <section class="news-list" id="museum-list">
+                <section class="news-list" id="news-list">
                     <div class="section-header">
-                        <div class="container">
+                        <div class="container" style="width: 100%; max-width: unset; padding: 0px">
                             <h2 class="section-title">News</h2>
-                            <a href="" class="link">All news</a>
+                            <a href="<?php echo site_url('/news') ?>" class="link">All news</a>
                         </div>
                     </div>
 
@@ -68,6 +68,9 @@ if (!isset($_POST['from_ajax'])) {
                                 <div class="news-image" style="background:url(<?= get_the_post_thumbnail_url($item->ID); ?>); background-size: cover; background-position:center;"></div>
                                 <div class="news-caption">
                                     <h3 class="news-title"><?= $item->post_title; ?></h3>
+                                    <div class="news-desc">
+                                        <?= substr($item->post_content, 0, 100) . '...'; ?>
+                                    </div>
                                 </div>
                             </a>
                         <?php endforeach; ?>
@@ -79,14 +82,12 @@ if (!isset($_POST['from_ajax'])) {
                 <!-- Cover Section -->
                 <section class="cover-list" id="cover-list">
                     <div class="section-header">
-                        <div class="container">
-                            <h2 class="section-title">Cover</h2>
-                        </div>
+                        <h2 class="section-title">Cover</h2>
                     </div>
 
-                    <div class="news-wrapper">
+                    <div class="cover-wrapper">
 
-                        <?php foreach (get_museums() as $item) : ?>
+                        <?php foreach (array_merge(get_museums(), get_news()) as $item) : ?>
                             <a href="<?= get_the_permalink($item->ID) ?>" class="cover-item">
                                 <div class="cover-image" style="background:url(<?= get_the_post_thumbnail_url($item->ID); ?>); background-size: cover; background-position:center;"></div>
                             </a>
@@ -99,6 +100,20 @@ if (!isset($_POST['from_ajax'])) {
 
         </div>
         <!-- Main Layout -->
+
+        <!-- Contact Form -->
+        <section id="contact">
+            <div class="section-header">
+                <div class="container">
+                    <h2 class="section-title">Contact</h2>
+                </div>
+            </div>
+
+            <div class="container">
+                <?= do_shortcode('[contact-form-7 id="53" title="Contact form 1"]') ?>
+            </div>
+        </section>
+        <!-- Contact Form -->
 
     </main>
 

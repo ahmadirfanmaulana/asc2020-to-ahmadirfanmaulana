@@ -9,13 +9,20 @@
 
 <div id="wrapper" class="hfeed">
 
+    <div id="loader">
+        <div class="loader-wrapper"></div>
+        <div class="loader-caption">
+            <h1>Kazan Museum Tour</h1>
+        </div>
+    </div>
+
     <header id="header">
         <div class="container">
             <div id="branding">
                 <div id="site-title">
-                    <?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '<h1>'; } ?>
+                    <h1>
                     <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home"><?php echo esc_html( get_bloginfo( 'name' ) ); ?></a>
-                    <?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '</h1>'; } ?>
+                    </h1>
                 </div>
             </div>
 
