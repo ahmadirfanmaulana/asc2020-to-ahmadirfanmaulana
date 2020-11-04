@@ -1,0 +1,75 @@
+.loader {
+    width: 200px;
+    height: 200px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-content: space-between;
+    justify-content: space-between;
+    animation: anim 2.5s infinite;
+}
+
+@keyframes anim {
+    0% {
+        width: 200px;
+        height: 200px;
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    12.5%{
+        width: 160px;
+        height: 160px;
+    }
+    25% {
+        width: 200px;
+        height: 200px;
+        transform: translate(-50%, -50%) rotate(90deg);
+    }
+    37.5% {
+        width: 160px;
+        height: 160px;
+    }
+    50% {
+        width: 200px;
+        height: 200px;
+        transform: translate(-50%, -50%) rotate(180deg);
+    }
+    62.5% {
+        width: 160px;
+        height: 160px;
+    }
+    75% {
+        width: 200px;
+        height: 200px;
+        transform: translate(-50%, -50%) rotate(270deg);
+    }
+    87.5% {
+        width: 160px;
+        height: 160px;
+    }
+    100% {
+        width: 200px;
+        height: 200px;
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+.dot {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.dot:nth-of-type(1) {
+    background: #19A68C;
+}
+.dot:nth-of-type(2) {
+    background: #F63D3A;
+}
+.dot:nth-of-type(3) {
+    background: #FDA543;
+}
+.dot:nth-of-type(4) {
+    background: #193B48;
+}
