@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a19f3347-7903-48e3-9f7a-ebafad5c864c" name="Default Changelist" comment="" />
+    <list default="true" id="a19f3347-7903-48e3-9f7a-ebafad5c864c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_cms/wp-content/themes/Kazan_MuseumTour/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/module_cms/wp-content/themes/Kazan_MuseumTour/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_cms/wp-content/themes/Kazan_MuseumTour/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/module_cms/wp-content/themes/Kazan_MuseumTour/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_cms/wp-content/themes/Kazan_MuseumTour/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/module_cms/wp-content/themes/Kazan_MuseumTour/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +23,9 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jntnemKupWRdNLsDadgMi4AM4d" />
   <component name="ProjectViewState">
@@ -51,6 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604451851366</updated>
       <workItem from="1604451852477" duration="22091000" />
+      <workItem from="1604478640273" duration="392000" />
     </task>
     <servers />
   </component>

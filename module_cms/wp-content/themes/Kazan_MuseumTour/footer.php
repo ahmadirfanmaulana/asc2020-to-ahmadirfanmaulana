@@ -7,7 +7,7 @@
         <div class="social-media">
 
             <?php foreach (get_posts(['post_type' => 'social-media', 'posts_per_page' => -1]) as $item) : ?>
-                <a href="<?= $item->post_content; ?>" target="_blank" class="without-ajax">
+                <a href="<?= $item->post_content; ?>" target="_blank" class="link without-ajax">
                     <?= $item->post_title; ?>
                 </a>
             <?php endforeach; ?>

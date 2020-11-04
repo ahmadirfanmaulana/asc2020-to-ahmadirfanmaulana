@@ -104,8 +104,8 @@ if (!isset($_POST['from_ajax'])) {
         <!-- Contact Form -->
         <section id="contact">
             <div class="section-header">
-                <div class="container">
-                    <h2 class="section-title">Contact</h2>
+                <div class="container" style="grid-template-columns: 1fr !important;">
+                    <h2 class="section-title" style="text-align: center;">Contact</h2>
                 </div>
             </div>
 
