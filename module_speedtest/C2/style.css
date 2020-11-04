@@ -1,0 +1,42 @@
+.loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    background: #17193a;
+    box-sizing: border-box;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rect {
+    width: 12px;
+    height: 100%;
+    background: #3cf0fe;
+    animation: rect 0.6s infinite;
+}
+.rect:nth-of-type(2) {
+    animation-delay: .1s;
+}
+.rect:nth-of-type(3) {
+    animation-delay: .2s;
+}
+.rect:nth-of-type(4) {
+    animation-delay: .3s;
+}
+
+@keyframes rect {
+    0% {
+        transform: scaleY(1);
+    }
+    50% {
+        transform: scaleY(0.2);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
