@@ -1,0 +1,23 @@
+.wrapper {
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 16px;
+    margin-bottom: 24px;
+}
+textarea {
+    border: 1px solid #333;
+}
+button {
+    padding: 12px 24px;
+    background: steelblue;
+    border: 0px;
+    color: #fff;
+}
