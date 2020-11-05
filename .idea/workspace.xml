@@ -28,8 +28,6 @@
       <change afterPath="$PROJECT_DIR$/module_php_and_js/frontend/src/pages/Registration.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/module_php_and_js/frontend/src/pages/SessionDetail.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/module_php_and_js/frontend/src/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module_php_and_js/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/module_php_and_js/frontend" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module_php_and_js/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/module_php_and_js/frontend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module_php_and_js/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/module_php_and_js/frontend/package.json" afterDir="false" />
@@ -91,7 +89,7 @@
       <updated>1604451851366</updated>
       <workItem from="1604451852477" duration="22091000" />
       <workItem from="1604478640273" duration="1791000" />
-      <workItem from="1604587476648" duration="689000" />
+      <workItem from="1604587476648" duration="698000" />
     </task>
     <servers />
   </component>
