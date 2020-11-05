@@ -20,6 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a19f3347-7903-48e3-9f7a-ebafad5c864c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/module_php_and_js/frontend/src/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_php_and_js/frontend/src/assets/css/custom.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/module_php_and_js/frontend/src/components/Navbar.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/module_php_and_js/frontend/src/pages/404.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/module_php_and_js/frontend/src/pages/EventDetail.vue" afterDir="false" />
@@ -89,7 +91,7 @@
       <updated>1604451851366</updated>
       <workItem from="1604451852477" duration="22091000" />
       <workItem from="1604478640273" duration="1791000" />
-      <workItem from="1604587476648" duration="698000" />
+      <workItem from="1604587476648" duration="1022000" />
     </task>
     <servers />
   </component>
