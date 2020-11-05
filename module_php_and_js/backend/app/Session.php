@@ -29,5 +29,9 @@ class Session extends Model
     public function room () {
         return $this->belongsTo(Room::class);
     }
+
+    public function session_registrations () {
+        return $this->hasMany(SessionRegistration::class);
+    }
 }
 
