@@ -1,8 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a19f3347-7903-48e3-9f7a-ebafad5c864c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/module_php_and_js/frontend/src/components/Navbar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_php_and_js/frontend/src/pages/404.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_php_and_js/frontend/src/pages/EventDetail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_php_and_js/frontend/src/pages/EventIndex.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_php_and_js/frontend/src/pages/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_php_and_js/frontend/src/pages/Registration.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_php_and_js/frontend/src/pages/SessionDetail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_php_and_js/frontend/src/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_php_and_js/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/module_php_and_js/frontend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_php_and_js/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/module_php_and_js/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_php_and_js/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/module_php_and_js/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_php_and_js/frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/module_php_and_js/frontend/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_php_and_js/frontend/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/module_php_and_js/frontend/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +57,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jntnemKupWRdNLsDadgMi4AM4d" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,7 +66,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AHMAD_IRFAN_MAULANA/WSC2019_TP17_actual/C2 Media Files/frameworks/laravel7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -58,11 +91,23 @@
       <updated>1604451851366</updated>
       <workItem from="1604451852477" duration="22091000" />
       <workItem from="1604478640273" duration="1791000" />
+      <workItem from="1604587476648" duration="689000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="494" y="219" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604457395693">
@@ -81,6 +126,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1604481674162" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1604587565202">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1604587565202" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1604476683267">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
