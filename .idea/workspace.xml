@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a19f3347-7903-48e3-9f7a-ebafad5c864c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_cms/wp-content/themes/Kazan_MuseumTour/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/module_cms/wp-content/themes/Kazan_MuseumTour/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_cms/wp-content/themes/Kazan_MuseumTour/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/module_cms/wp-content/themes/Kazan_MuseumTour/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_cms/wp-content/themes/Kazan_MuseumTour/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/module_cms/wp-content/themes/Kazan_MuseumTour/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +33,10 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/module_cms" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AHMAD_IRFAN_MAULANA/WSC2019_TP17_actual/C2 Media Files/frameworks/laravel7" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -59,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604451851366</updated>
       <workItem from="1604451852477" duration="22091000" />
-      <workItem from="1604478640273" duration="392000" />
+      <workItem from="1604478640273" duration="1791000" />
     </task>
     <servers />
   </component>
@@ -71,14 +69,18 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="494" y="219" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1604457395693" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1604469185404">
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1604482209573">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1604469185404" />
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1604482209573" />
     <state x="604" y="340" key="NewPhpFileDialog" timestamp="1604475550734">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="604" y="340" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1604475550734" />
+    <state x="277" y="62" key="SettingsEditor" timestamp="1604481674162">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1604481674162" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1604476683267">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
