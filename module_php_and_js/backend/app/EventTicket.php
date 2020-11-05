@@ -40,9 +40,9 @@ class EventTicket extends Model
     public function getAvailableAttribute () {
         $available = true;
 
-//        if (date('Y-m-d') > $this->event->date) {
-//            $available = false;
-//        }
+        if (date('Y-m-d') > $this->event->date) {
+            $available = false;
+        }
 
         if ($this->special_validity) {
             $special_validity = json_decode($this->special_validity);
