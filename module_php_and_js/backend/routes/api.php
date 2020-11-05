@@ -30,7 +30,7 @@ Route::group(['prefix' => '/v1'], function () {
     Route::get('/organizers/{organizer_slug}/events/{event_slug}', 'API\EventController@show');
 
     // Registration
-    Route::get('/registrations', 'API\RegistrationController@index');
-    Route::post('/organizers/{organizer_slug}/events/{event_slug}/registration', 'API\RegistrationController@store');
+    Route::get('/registrations', 'API\RegistrationController@index')->middleware('jwt');
+    Route::post('/organizers/{organizer_slug}/events/{event_slug}/registration', 'API\RegistrationController@store')->middleware('jwt');
 
 });

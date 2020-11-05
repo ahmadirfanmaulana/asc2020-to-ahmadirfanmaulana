@@ -32,25 +32,38 @@ class EventController extends Controller
         ]);
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
+    public function create(Request $request)
     {
-        //
+        // define organizer
+        $organizer = auth()->user();
+
+        // return view
+        return view('event.create');
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        //
+    public function store (Request $request) {
+
+        // define organizer
+        $organizer = auth()->user();
+
+        // validator
+        $validator = $this->validate($request, [
+            'name' => 'required',
+            'slug' => 'required|regex:/^[0-9a-z-]+$/|unique:events,slug',
+            'date' => 'required|date_format:Y-m-d',
+        ]);
+
+        // insert
+        $insert = $this->event->create([
+            'organizer_id' => $organizer->id,
+            'name' => $request->name,
+            'slug' => $request->slug,
+            'date' => $request->date,
+        ]);
+
+        // redirect success
+        return redirect()->route('events.show', ['event' => $insert->id])->with('message', 'Event successfully created');
+
     }
 
     /**
@@ -81,7 +94,16 @@ class EventController extends Controller
      */
     public function edit($id)
     {
-        //
+        // define organizer
+        $organizer = auth()->user();
+
+        // define event
+        $event = $this->event->where('id', $id)->first();
+
+        // return view
+        return view('event.edit', [
+            'event' => $event,
+        ]);
     }
 
     /**
@@ -93,7 +115,29 @@ class EventController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        // define event
+        $event = $this->event->find($id);
+
+        // define organizer
+        $organizer = auth()->user();
+
+        // validator
+        $validator = $this->validate($request, [
+            'name' => 'required',
+            'slug' => 'required|regex:/^[0-9a-z-]+$/|unique:events,slug,' . $event->id,
+            'date' => 'required|date_format:Y-m-d',
+        ]);
+
+        // insert
+        $update = $event->update([
+            'organizer_id' => $organizer->id,
+            'name' => $request->name,
+            'slug' => $request->slug,
+            'date' => $request->date,
+        ]);
+
+        // redirect success
+        return redirect()->route('events.show', ['event' => $event->id])->with('message', 'Event successfully updated');
     }
 
     /**

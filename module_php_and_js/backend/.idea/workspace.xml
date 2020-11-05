@@ -23,13 +23,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f830fb20-d732-40d2-91ea-67dadae676dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/event/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/event/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/errors.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/nav1.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/toolbar1.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/channel/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/event/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/event/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/nav3.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/success.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/toolbar2.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/toolbar3.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/room/capacity.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/room/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/ticket/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ChannelController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ChannelController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EventController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EventController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RoomController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RoomController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TicketController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TicketController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/EventMiddleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/EventMiddleware.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/JWTMiddleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/JWTMiddleware.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/event/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/event/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/event/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/event/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,6 +185,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\asc2020-to-ahmadirfanmaulana\module_php_and_js\backend\resources\views\layouts" />
+      <recent name="C:\xampp\htdocs\asc2020-to-ahmadirfanmaulana\module_php_and_js\backend\resources\views\room" />
+      <recent name="C:\xampp\htdocs\asc2020-to-ahmadirfanmaulana\module_php_and_js\backend\resources\views\event" />
+      <recent name="C:\xampp\htdocs\asc2020-to-ahmadirfanmaulana\module_php_and_js\backend\resources\views" />
     </key>
   </component>
   <component name="RunManager">
@@ -184,7 +204,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604543412795</updated>
-      <workItem from="1604543413871" duration="5569000" />
+      <workItem from="1604543413871" duration="8453000" />
     </task>
     <servers />
   </component>
@@ -203,18 +223,18 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="172" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1604547921033">
+    <state x="499" y="172" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1604550372328">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="499" y="172" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.834@0.0.1536.834" timestamp="1604547921033" />
-    <state x="604" y="341" key="NewPhpFileDialog" timestamp="1604548485753">
+    <state x="499" y="172" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.834@0.0.1536.834" timestamp="1604550372328" />
+    <state x="604" y="341" key="NewPhpFileDialog" timestamp="1604550025737">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="604" y="341" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1604548485753" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1604548861560">
+    <state x="604" y="341" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1604550025737" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1604551802772">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1604548861560" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1604551802772" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

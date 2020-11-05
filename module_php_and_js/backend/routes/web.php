@@ -22,9 +22,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
-
-Route::group(['prefix' => '/organizer'], function () {
+Route::group(['prefix' => '/organizer', 'middleware' => ['auth', 'event']], function () {
 
     // Events
     Route::resource('/events', 'EventController');

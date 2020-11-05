@@ -22,7 +22,8 @@
     <span class="navbar-organizer w-100">{{auth()->user()->name}}</span>
     <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">
-            <a class="nav-link" id="logout" href="index.html">Sign out</a>
+            <a class="nav-link" id="logout" href="index.html" onclick="event.preventDefault(); document.getElementById('form-logout').submit()">Sign out</a>
+            <form action="{{route('logout')}}" id="form-logout" method="POST">@csrf</form>
         </li>
     </ul>
 </nav>

@@ -2,6 +2,7 @@
 
 namespace App\Http\Middleware;
 
+use App\Event;
 use Closure;
 
 class EventMiddleware
@@ -15,6 +16,13 @@ class EventMiddleware
      */
     public function handle($request, Closure $next)
     {
+        if ($request->route('event')) {
+            $event = Event::find($request->route('event'));
+
+            if ($event->organizer_id != auth()->user()->id) {
+                abort(403);
+            }
+        }
         return $next($request);
     }
 }
