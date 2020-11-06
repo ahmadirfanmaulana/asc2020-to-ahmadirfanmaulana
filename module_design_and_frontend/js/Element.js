@@ -136,6 +136,33 @@ class Element extends Svg {
     }
 
     generateRelations () {
+        this.relations = [
+            {
+                section: 1,
+                line: null,
+                target: null,
+                caption: '',
+            },
+            {
+                section: 2,
+                line: null,
+                target: null,
+                caption: '',
+            },
+            {
+                section: 3,
+                line: null,
+                target: null,
+                caption: '',
+            },
+            {
+                section: 4,
+                line: null,
+                target: null,
+                caption: '',
+            }
+        ];
+
         let sectionHaveRelation = main.lines.filter(line => {
             return line.el1.id == this.id;
         }).map(line => parseInt(line.sec1));
@@ -162,6 +189,7 @@ class Element extends Svg {
 
             return resultFormat;
         });
+
 
         this.relations = this.relations.map(rel => {
            let shr = sectionHaveRelation.find(sec => sec.section == rel.section);
