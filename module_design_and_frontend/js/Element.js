@@ -197,6 +197,8 @@ class Element extends Svg {
            if (shr) {
                rel.target = shr.target.id;
                rel.line = shr.line.id;
+           } else {
+               rel.caption = "";
            }
            return rel;
         });
