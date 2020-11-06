@@ -31,6 +31,8 @@ a {
     align-items: center;
     background: #fff;
     box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+    position: relative;;
+    z-index: 9;
 }
 
 /*menu*/
@@ -52,7 +54,7 @@ a {
     border-radius: 4px;
 }
 .btn.btn-active {
-    background: darkseagreen;
+    background: #93D8E4;
     color: #fff;
 }
 
@@ -163,12 +165,12 @@ a {
 
 /*path*/
 .path {
-    fill: steelblue;
+    fill: #93D8E4;
     stroke: #333;
     stroke-width: 3;
 }
 .section:hover .path {
-    fill: cornflowerblue;
+    fill: #45C7DD;
 }
 .section.active .path {
     fill: #fff;
