@@ -97,6 +97,14 @@ class Main {
 
         });
 
+        window.addEventListener('keyup', (e) => {
+            let key = e.keyCode;
+
+            if (key == 16) {
+                this.onShift = false;
+            }
+        })
+
     }
 
     update () {

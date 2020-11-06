@@ -257,6 +257,7 @@ class Element extends Svg {
               }
               mousedown = false;
               mousemove = false;
+              main.onShift = false;
            });
 
         });
