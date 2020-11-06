@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+/*general*/
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    user-select: none;
+}
+body {
+    color: #333;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*wrapper*/
+.wrapper {
+    display: grid;
+    grid-template-rows: 80px 1fr;
+    height: 100vh;
+}
+
+/*header*/
+.header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background: #fff;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+}
+
+/*menu*/
+.menu {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.menu li a {
+    margin-left: 16px;
+}
+
+/*buttons*/
+.btn {
+    padding: 12px 24px;
+    display: inline-block;
+    background: #ededed;
+    border-radius: 4px;
+}
+.btn.btn-active {
+    background: darkseagreen;
+    color: #fff;
+}
+
+/*main*/
+.main {
+    width: 100vw;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 100%);
+    transition: .5s;
+    overflow: hidden;
+}
+.view-mode, .route-editor {
+    width: 100%;
+    height: 100%;
+}
+.main.on-view {
+    transform: translateX(-100%);
+}
+
+/*view mode*/
+.route-editor {
+    background: #ededed;
+}
+
+/*app*/
+.app {
+    width: 100%;
+    height: 100%;
+}
+
+/*circle*/
+.circle {
+    stroke-width: 3;
+    stroke: #333;
+    fill: #fff;
+    animation: zoomIn .3s;
+}
+
+/*section*/
+.section {
+    opacity: 0;
+    transition: 0.2s;
+}
+.element:hover .section {
+    opacity: 1;
+}
+.section.always-on {
+    opacity: 1;
+    transition: 0s;
+}
+
+/*path*/
+.path {
+    fill: steelblue;
+    stroke: #333;
+    stroke-width: 3;
+}
+.section:hover .path {
+    fill: cornflowerblue;
+}
+.section.active .path {
+    fill: #fff;
+}
+
+/*text*/
+.text {
+    alignment-baseline: middle;
+    text-anchor: middle;
+    fill: #fff;
+}
+.section.active .text {
+    fill: #808080;
+}
+.text[i="1"] {
+    transform: translateY(-23px);
+}
+.text[i="2"] {
+    transform: translateX(23px);
+}
+.text[i="3"] {
+    transform: translateY(23px);
+}
+.text[i="4"] {
+    transform: translateX(-23px);
+}
+
+/*button action*/
+.btn-action {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .2s;
+}
+.element:hover .btn-action {
+    opacity: 1;
+}
+
+/*line*/
+.line {
+    stroke-width: 4;
+    stroke: #333;
+}
+.line.focused {
+    stroke: indianred;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0);
+    }
+}
