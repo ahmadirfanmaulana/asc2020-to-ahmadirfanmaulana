@@ -263,7 +263,7 @@ class Main {
         el.relations.filter(rel => rel.target).forEach(rel => {
            let button = document.createElement('button');
            let target = this.elements.find(el => el.id == rel.target);
-           let html = `To slide ${rel.target}`;
+           let html = rel.caption ? rel.caption : `To slide ${rel.target}` ;
            if (rel.section == 1) {
                html = `&#8593; ` + html;
            } else if (rel.section == 2) {
