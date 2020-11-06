@@ -10,6 +10,7 @@ class Element extends Svg {
 
         this.dom = null;
         this.content = 'Slide ' + this.id;
+        this.contentDOM = null;
         this.relations = [
             {
                 section: 1,
@@ -105,8 +106,13 @@ class Element extends Svg {
                 transform: `translate(-15, -15)`,
                 x: -main.radius-15,
         });
+
         buttonEdit.innerHTML = `<button class="btn-action btn-edit">E</button>`;
         this.dom.append(buttonEdit);
+
+        buttonEdit.addEventListener('click', () => {
+           this.edit();
+        });
 
         let buttonDelete = this.make('foreignObject', {
             width: 30,
@@ -130,19 +136,59 @@ class Element extends Svg {
     }
 
     generateRelations () {
+        let sectionHaveRelation = main.lines.filter(line => {
+            return line.el1.id == this.id;
+        }).map(line => parseInt(line.sec1));
 
+        sectionHaveRelation = main.lines.filter(line => {
+            return line.el2.id == this.id;
+        }).map(line => parseInt(line.sec2)).concat(sectionHaveRelation);
+
+        sectionHaveRelation.sort();
+
+        sectionHaveRelation = sectionHaveRelation.map((section) => {
+            let line = main.lines.find(line => {
+                return line.el1.id == this.id && line.sec1 == section ||
+                    line.el2.id == this.id && line.sec2 == section
+            });
+
+            let target = line.el1.id != this.id ? line.el1 : line.el2;
+
+            let resultFormat = {
+                section,
+                line,
+                target,
+            };
+
+            return resultFormat;
+        });
+
+        this.relations = this.relations.map(rel => {
+           let shr = sectionHaveRelation.find(sec => sec.section == rel.section);
+
+           if (shr) {
+               rel.target = shr.target.id;
+               rel.line = shr.line.id;
+           }
+           return rel;
+        });
     }
 
     listener () {
         this.sectionDOM().forEach(section => {
             let mousedown, mousemove, clonning = false;
 
-           section.addEventListener('mousedown', () => {
+           section.addEventListener('mousedown', (e) => {
                mousedown = true;
 
                if (main.onShift && !section.classList.contains('active')) {
+                   let rect = app.getBoundingClientRect();
+                   let x = e.clientX - rect.left;
+                   let y = e.clientY - rect.top;
+
                    clonning = section.cloneNode(true);
                    clonning.classList.add('always-on');
+                   clonning.setAttribute('transform', `translate(${x}, ${y})`);
                    app.prepend(clonning);
                }
            });
@@ -193,6 +239,10 @@ class Element extends Svg {
     }
 
     destroy () {
+        if (main.elements.length == 1) {
+            alert('Cannot delete root element.');
+            return;
+        }
         main.lines
             .filter(line => line.el1.id == this.id || line.el2.id == this.id)
             .forEach(line => line.destroy());
@@ -202,4 +252,29 @@ class Element extends Svg {
         main.elements.splice(index, 1);
     }
 
+    edit () {
+        main.showModal();
+
+        id('modal-content').innerHTML = `<textarea id="editor1" cols="8" rows="8"></textarea>`;
+        let ckeditor = CKEDITOR.replace( 'editor1' );
+        ckeditor.setData(this.content);
+        ckeditor.on('change', (e) => {
+            this.content = ckeditor.getData();
+        });
+
+
+        this.generateRelations();
+        id('modal-section').innerHTML = '';
+        this.relations.filter(rel => rel.target).forEach(rel => {
+            let input = document.createElement('input');
+            input.setAttribute('placeholder', `Relation ${rel.section}`);
+            input.value = rel.caption;
+
+            input.addEventListener('change', () => {
+               rel.caption = input.value;
+            });
+
+           id('modal-section').append(input);
+        });
+    }
 }

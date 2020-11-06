@@ -27,8 +27,8 @@
         <!-- Navbar -->
         <nav id="navbar" class="navbar">
             <ul id="menu" class="menu">
-                <li><a href="" class="btn btn-active" id="editor-btn">Route Editor</a></li>
-                <li><a href="" class="btn" id="view-btn">View Mode</a></li>
+                <li><a href="" onclick="event.preventDefault(); main.switchMode(true)" class="btn btn-active" id="editor-btn">Route Editor</a></li>
+                <li><a href="" onclick="event.preventDefault(); main.switchMode(false)" class="btn" id="view-btn">View Mode</a></li>
             </ul>
         </nav>
         <!-- Navbar -->
@@ -49,9 +49,17 @@
             <div id="view-content" class="view-content"></div>
             <!-- View Content -->
 
-            <!-- View Links -->
-            <div id="view-links" class="view-links"></div>
-            <!-- View Links -->
+            <!-- View Action -->
+            <div id="view-action" class="view-action">
+                <!-- View Links -->
+                <div id="view-links" class="view-links"></div>
+                <!-- View Links -->
+
+                <!-- Fullscreen Button -->
+                <button onclick="main.fullscreen()" class="btn-fullscreen">Fullscreen</button>
+                <!-- Fullscreen Button -->
+            </div>
+            <!-- View Action -->
         </section>
         <!-- View Mode -->
 
@@ -62,10 +70,10 @@
 <!-- Wrapper -->
 
 <!-- Modal -->
-<div id="modal">
+<div id="modal" class="modal">
 
     <!-- Modal Wrapper -->
-    <div id="modal-wrapper">
+    <div id="modal-wrapper" class="modal-wrapper">
 
         <!-- Modal Content -->
         <div id="modal-content" class="modal-content"></div>
@@ -75,6 +83,13 @@
         <div id="modal-section" class="modal-section"></div>
         <!-- Modal Section -->
 
+        <!-- Modal Action -->
+        <div class="modal-action">
+            <a href="" onclick="event.preventDefault(); main.closeModal();" class="btn btn-active">Save</a>
+            <a href="" onclick="event.preventDefault(); main.closeModal();" class="btn">Cancel</a>
+        </div>
+        <!-- Modal Action -->
+
     </div>
     <!-- Modal Wrapper -->
 
@@ -82,6 +97,7 @@
 <!-- Modal -->
 
 <!-- Scripts -->
+<script src="plugins/ckeditor/ckeditor.js"></script>
 <script src="js/Svg.js"></script>
 <script src="js/Element.js"></script>
 <script src="js/Line.js"></script>

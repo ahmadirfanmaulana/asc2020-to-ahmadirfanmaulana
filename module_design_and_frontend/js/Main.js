@@ -10,6 +10,7 @@ class Main {
         // objects
         this.elements = [];
         this.lines = [];
+        this.viewActive = false;
     }
 
     run () {
@@ -25,7 +26,9 @@ class Main {
 
             let els = JSON.parse(localStorage.getItem('elements'));
             els.forEach(el => {
-               el = this.createElement(el.x, el.y, el.id);
+               let elNew = this.createElement(el.x, el.y, el.id);
+               elNew.content = el.content;
+               elNew.relations = el.relations;
             });
 
         } else {
@@ -42,9 +45,15 @@ class Main {
             lines.forEach(line => {
                 let el1 = this.elements.find(el => el.id == line.el1.id);
                 let el2 = this.elements.find(el => el.id == line.el2.id);
-                line = this.createLine(el1, el2, line.sec1, line.sec2, line.id);
+                let lineNew = this.createLine(el1, el2, line.sec1, line.sec2, line.id);
+                lineNew.focused = line.focused;
             });
 
+        }
+
+        // mode
+        if (localStorage.getItem('inEditor') == 'false') {
+            this.switchMode(false);
         }
 
     }
@@ -63,12 +72,45 @@ class Main {
                 this.onShift = true;
             }
 
+            this.viewActive.generateRelations();
+            if (key == 49) {
+                let target = this.viewActive.relations.find(rel => rel.section == 1 && rel.target);
+                if (target) {
+                    this.watchView(this.elements.find(el => el.id == target.target));
+                }
+            } else if (key == 50) {
+                let target = this.viewActive.relations.find(rel => rel.section == 2 && rel.target);
+                if (target) {
+                    this.watchView(this.elements.find(el => el.id == target.target));
+                }
+            } else if (key == 51) {
+                let target = this.viewActive.relations.find(rel => rel.section == 3 && rel.target);
+                if (target) {
+                    this.watchView(this.elements.find(el => el.id == target.target));
+                }
+            } else if (key == 52) {
+                let target = this.viewActive.relations.find(rel => rel.section == 4 && rel.target);
+                if (target) {
+                    this.watchView(this.elements.find(el => el.id == target.target));
+                }
+            }
+
         });
 
     }
 
     update () {
         requestAnimationFrame(this.update.bind(this));
+
+        if (this.inEditor) {
+            id('main').classList.remove('on-view');
+            id('editor-btn').classList.add('btn-active');
+            id('view-btn').classList.remove('btn-active');
+        } else {
+            id('main').classList.add('on-view');
+            id('editor-btn').classList.remove('btn-active');
+            id('view-btn').classList.add('btn-active');
+        }
 
         this.elements.forEach(el => el.update());
         this.lines.forEach(line => line.update());
@@ -89,6 +131,7 @@ class Main {
     createLine (el1, el2, sec1, sec2, id = false) {
         let el = new Line(el1, el2, sec1, sec2, id);
         this.lines.push(el);
+
         return el;
     }
 
@@ -116,6 +159,140 @@ class Main {
 
         newEl = this.createElement(pos.x, pos.y);
         this.createLine(el, newEl, sec, newSec);
+    }
+
+    // show modal
+    showModal () {
+        id('modal').classList.add('active');
+    }
+
+    // close modal
+    closeModal () {
+        id('modal').classList.remove('active');
+    }
+
+    // switch mode
+    switchMode (isEditor) {
+        this.inEditor = isEditor;
+
+        let viewContent = id('view-content');
+
+        if (!this.inEditor) {
+            this.watchView();
+            viewContent.innerHTML = "";
+            this.elements.forEach((el, i) => {
+                let viewItem = document.createElement('div');
+                viewItem.classList.add('view-item');
+                viewItem.innerHTML = `<div>${el.content}</div>`;
+                viewItem.style.transform = `translateX(${i == 0 ? '0%' : '100%'})`;
+                viewContent.append(viewItem);
+                el.contentDOM = viewItem;
+            });
+        }
+
+    }
+
+    // watch view
+    watchView (el = false) {
+
+        if (!el) {
+            el = main.elements[0];
+            this.viewActive = false;
+        }
+
+        let from = this.viewActive;
+        this.viewActive = el;
+
+        if (from) {
+            from.generateRelations();
+            let fromSection = from.relations.find(rel => rel.target == el.id).section;
+            let keyframes = [], keyframesNext = [];
+
+            if (fromSection == 1) {
+                keyframes = [
+                    {transform: 'translateY(0%)'},
+                    {transform: 'translateY(100%)'},
+                ];
+                keyframesNext = [
+                    { transform: 'translateY(-100%)' },
+                    { transform: 'translateY(0%)' }
+                ];
+            } else if (fromSection == 2) {
+                keyframes = [
+                    {transform: 'translateX(0%)'},
+                    {transform: 'translateX(-100%)'},
+                ];
+                keyframesNext = [
+                    { transform: 'translateX(100%)' },
+                    { transform: 'translateX(0%)' }
+                ];
+            } else if (fromSection == 3) {
+                keyframes = [
+                    { transform: 'translateY(0%)' },
+                    { transform: 'translateY(-100%)' }
+                ];
+                keyframesNext = [
+                    { transform: 'translateY(100%)' },
+                    { transform: 'translateY(0%)' }
+                ];
+            } else if (fromSection == 4) {
+                keyframes = [
+                    {transform: 'translateX(0%)'},
+                    {transform: 'translateX(100%)'},
+                ];
+                keyframesNext = [
+                    { transform: 'translateX(-100%)' },
+                    { transform: 'translateX(0%)' }
+                ];
+            }
+
+            from.contentDOM.animate(keyframes, {
+                duration: 400,
+                fill: 'forwards',
+                easing: 'ease-out'
+            });
+            el.contentDOM.animate(keyframesNext, {
+                duration: 400,
+                fill: 'forwards',
+                easing: 'ease-out'
+            });
+        }
+
+        id('view-links').innerHTML = "";
+        el.generateRelations();
+        el.relations.filter(rel => rel.target).forEach(rel => {
+           let button = document.createElement('button');
+           let target = this.elements.find(el => el.id == rel.target);
+           let html = `To slide ${rel.target}`;
+           if (rel.section == 1) {
+               html = `&#8593; ` + html;
+           } else if (rel.section == 2) {
+               html = `&#8594; ` + html;
+           } else if (rel.section == 3) {
+               html = `&#8595; ` + html;
+           } else if (rel.section == 4) {
+               html = `&#8592; ` + html;
+           }
+           button.innerHTML = html;
+           button.addEventListener('click', () => this.watchView(target));
+           id('view-links').append(button);
+        });
+    }
+
+    // fullscreen
+    fullscreen () {
+        id('view-mode').requestFullscreen();
+
+        id('view-mode').classList.add('fullscreen');
+
+        id('view-mode').onfullscreenchange = (event) => {
+            let elem = event.target;
+            let isFullscreen = document.fullscreenElement === elem;
+
+            if (!isFullscreen) {
+                id('view-mode').classList.remove('fullscreen');
+            }
+        }
     }
 
 }
