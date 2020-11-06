@@ -121,7 +121,7 @@ class Element extends Svg {
             x: main.radius+15,
         });
 
-        buttonDelete.innerHTML = `<button class="btn-action btn-edit">X</button>`;
+        buttonDelete.innerHTML = `<button class="btn-action btn-delete">X</button>`;
         this.dom.append(buttonDelete);
 
         buttonDelete.addEventListener('click', () => {

@@ -80,7 +80,7 @@ a {
 }
 .view-mode {
     display: grid;
-    grid-template-rows: 1fr 60px;
+    grid-template-rows: 1fr 80px;
 }
 .view-content {
     line-height: 1.5;
@@ -107,6 +107,9 @@ a {
     grid-template-columns: 10fr 2fr;
     width: 100%;
     padding: 12px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+    position: relative;
+    z-index: 9;
 }
 .view-links {
     display: flex;
@@ -122,12 +125,38 @@ a {
     width: 100%;
     height: 100%;
     margin: 0px 16px;
+    background: #FCF6F6;
+    border: 0px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+    font-weight: bold;
+    cursor: pointer;
+    transition: .2s;
+    border-radius: 4px;
+}
+.view-links button:hover {
+    background: #93D8E4;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+    transform: translateY(-4px);
+}
+.view-links button:active {
+    background: #93D8E4;
+    border: 0px;
+    outline: 0px;
 }
 .btn-fullscreen {
     width: 100%;
     background: rgba(0,0,0,0.5);
     color: #fff;
-
+    border: 0px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+    transition: .2s;
+}
+.btn-fullscreen:hover {
+    transform: translateY(-6px);
+    cursor: pointer;
+    background: rgba(0,0,0,0.8);
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
 }
 .view-mode.fullscreen {
     background: #fff;
@@ -204,6 +233,19 @@ a {
     height: 100%;
     opacity: 0;
     transition: .2s;
+    border: 0px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+.btn-action.btn-edit {
+    background: #fff;
+    border: 2px solid #93D8E4;
+    color: #93D8E4;
+}
+.btn-action.btn-delete {
+    background: #fff;
+    border: 2px solid #F07575;
+    color: #F07575;
 }
 .element:hover .btn-action {
     opacity: 1;
@@ -213,6 +255,7 @@ a {
 .line {
     stroke-width: 4;
     stroke: #333;
+    animation: zoomInOpacity .2s;
 }
 .line.focused {
     stroke: indianred;
@@ -220,6 +263,14 @@ a {
 
 @keyframes zoomIn {
     from {
+        transform: scale(0);
+    }
+}
+
+
+@keyframes zoomInOpacity {
+    from {
+        opacity: 0;
         transform: scale(0);
     }
 }
