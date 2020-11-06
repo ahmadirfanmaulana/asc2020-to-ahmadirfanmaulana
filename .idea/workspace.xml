@@ -30,6 +30,7 @@
       <change afterPath="$PROJECT_DIR$/module_php_and_js/frontend/src/pages/Registration.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/module_php_and_js/frontend/src/pages/SessionDetail.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/module_php_and_js/frontend/src/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module_php_and_js/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/module_php_and_js/frontend" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module_php_and_js/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/module_php_and_js/frontend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module_php_and_js/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/module_php_and_js/frontend/package.json" afterDir="false" />
@@ -66,7 +67,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/module_design_and_frontend" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -91,7 +92,7 @@
       <updated>1604451851366</updated>
       <workItem from="1604451852477" duration="22091000" />
       <workItem from="1604478640273" duration="1791000" />
-      <workItem from="1604587476648" duration="1022000" />
+      <workItem from="1604587476648" duration="1635000" />
     </task>
     <servers />
   </component>
@@ -114,10 +115,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="494" y="219" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1604457395693" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1604482209573">
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1604626574865">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1604482209573" />
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1604626574865" />
     <state x="604" y="340" key="NewPhpFileDialog" timestamp="1604475550734">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
