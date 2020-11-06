@@ -72,26 +72,28 @@ class Main {
                 this.onShift = true;
             }
 
-            this.viewActive.generateRelations();
-            if (key == 49) {
-                let target = this.viewActive.relations.find(rel => rel.section == 1 && rel.target);
-                if (target) {
-                    this.watchView(this.elements.find(el => el.id == target.target));
-                }
-            } else if (key == 50) {
-                let target = this.viewActive.relations.find(rel => rel.section == 2 && rel.target);
-                if (target) {
-                    this.watchView(this.elements.find(el => el.id == target.target));
-                }
-            } else if (key == 51) {
-                let target = this.viewActive.relations.find(rel => rel.section == 3 && rel.target);
-                if (target) {
-                    this.watchView(this.elements.find(el => el.id == target.target));
-                }
-            } else if (key == 52) {
-                let target = this.viewActive.relations.find(rel => rel.section == 4 && rel.target);
-                if (target) {
-                    this.watchView(this.elements.find(el => el.id == target.target));
+            if (this.viewActive) {
+                this.viewActive.generateRelations();
+                if (key == 49) {
+                    let target = this.viewActive.relations.find(rel => rel.section == 1 && rel.target);
+                    if (target) {
+                        this.watchView(this.elements.find(el => el.id == target.target));
+                    }
+                } else if (key == 50) {
+                    let target = this.viewActive.relations.find(rel => rel.section == 2 && rel.target);
+                    if (target) {
+                        this.watchView(this.elements.find(el => el.id == target.target));
+                    }
+                } else if (key == 51) {
+                    let target = this.viewActive.relations.find(rel => rel.section == 3 && rel.target);
+                    if (target) {
+                        this.watchView(this.elements.find(el => el.id == target.target));
+                    }
+                } else if (key == 52) {
+                    let target = this.viewActive.relations.find(rel => rel.section == 4 && rel.target);
+                    if (target) {
+                        this.watchView(this.elements.find(el => el.id == target.target));
+                    }
                 }
             }
 
