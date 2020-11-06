@@ -141,25 +141,25 @@ class Element extends Svg {
                 section: 1,
                 line: null,
                 target: null,
-                caption: '',
+                caption: this.relations[0].caption,
             },
             {
                 section: 2,
                 line: null,
                 target: null,
-                caption: '',
+                caption: this.relations[1].caption,
             },
             {
                 section: 3,
                 line: null,
                 target: null,
-                caption: '',
+                caption: this.relations[2].caption,
             },
             {
                 section: 4,
                 line: null,
                 target: null,
-                caption: '',
+                caption: this.relations[3].caption,
             }
         ];
 
